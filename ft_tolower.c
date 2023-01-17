@@ -6,7 +6,15 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:50:56 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/16 20:50:57 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/17 23:34:03 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int	ft_tolower(int ch)
+{
+	if (ch >= 65 && ch <= 90)
+		ch += 32;
+	return (ch);
+}

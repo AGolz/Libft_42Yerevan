@@ -6,7 +6,18 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:50:38 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/16 20:50:39 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/17 23:32:14 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+size_t	ft_strlen(const char *str)
+{
+	size_t	i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}

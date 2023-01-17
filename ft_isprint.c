@@ -6,13 +6,13 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:49:58 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/17 21:49:30 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/17 23:38:09 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int ch)
+int	ft_isprint(int ch)
 {
 	if (ch >= 32 && ch <= 126)
 		return (1);

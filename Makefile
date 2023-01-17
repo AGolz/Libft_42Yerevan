@@ -6,7 +6,7 @@
 #    By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/16 20:30:17 by emaksimo          #+#    #+#              #
-#    Updated: 2023/01/16 20:40:16 by emaksimo         ###   ########.fr        #
+#    Updated: 2023/01/17 23:55:27 by emaksimo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,11 @@ HEADER = libft.h
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror 
 
-SOURCES = 
+SOURCES = ft_atoi.c \
+ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memcmp.c \
+ft_strncmp.c ft_tolower.c ft_toupper.c ft_strchr.c ft_strdup.c ft_strnstr.c \
+ft_strrchr.c ft_bzero.c ft_calloc.c ft_memchr.c ft_memcpy.c ft_memmove.c ft_memset.c \
+ft_strlcat.c ft_strlcpy.c ft_strlen.c
 
 SOURCES_B = 
 
