@@ -6,7 +6,7 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:49:54 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/17 20:39:39 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/17 21:50:06 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,5 @@ int	ft_isdigit(int ch)
 {
 	if (ch >= 48 && ch <= 57)
 		return (1);
-	else
-		return (0);
+	return (0);
 }
