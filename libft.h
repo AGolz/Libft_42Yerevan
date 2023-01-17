@@ -6,7 +6,7 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 21:10:58 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/17 23:46:20 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 00:01:44 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,5 @@ void	*ft_memset(void *buf, int ch, size_t count);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *str);
-
 
 #endif
