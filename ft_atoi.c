@@ -42,7 +42,7 @@ int	ft_atoi(const char *str)
 	negative = 1;
 	while (str[i] == '-' && ft_isdigit(str[i + 1]))
 	{
-		negative = -1;
+		negative = 1;
 		i++;
 	}
 	if (str[i] == '+' && ft_isdigit(str[i + 1]))
