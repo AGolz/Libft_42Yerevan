@@ -26,7 +26,9 @@ Their detailed description can be found [here](https://github.com/AGolz/Libft_42
 Run `make` to compile the **libft** library .
 
 ```
-$>./make
+$>make
 libft.a:   object files are created
 libft.a:   libft.a created
 ```
+
+The makefile also contains the rules `clean` - delete object files, `flean` - delete everything, including lift.a, and `re` - delete everything, including lift.a and compile again.
