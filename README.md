@@ -31,7 +31,7 @@ libft.a:   object files are created
 libft.a:   libft.a created
 ```
 
-The makefile also contains the rules `clean` - delete object files, `flean` - delete everything, including lift.a, and `re` - delete everything, including lift.a and compile again.
+The makefile also contains the rules `clean` - delete object files, `fclean` - delete everything, including lift.a, and `re` - delete everything, including lift.a and compile again.
 
 ## Bonus part:
 
