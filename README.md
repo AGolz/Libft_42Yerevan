@@ -60,3 +60,17 @@ Run `make bonus` to compile the **bonus functions** from libft.
 $>make bonus
 bonus object files are created
 ```
+
+## Unit-test results:
+
+![first part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.50.32%20AM.png)
+
+![second part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.51.29%20AM.png)
+
+![bonus part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.52.01%20AM.png)
+
+**[Project instructions](/en.subject.pdf)**
+
+Need help: emaksimo@student.42yerevan.am
+
+Special thanks: [aleliver](https://github.com/alelievr) for the [libft-unit-test](https://github.com/alelievr/libft-unit-test) and [jtoty](https://github.com/jtoty) for the [Libftest](https://github.com/jtoty/Libftest) (:
