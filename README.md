@@ -21,4 +21,12 @@ start with the prefix ’ft_’. For example, strlen becomes ft_strlen.
 This is a set of functions that either do not exist in libc,
 or that are part of it, but in a different form.
 
-their detailed description can be found [here](https://github.com/AGolz/Libft_42Yerevan/blob/main/en.subject.pdf), page 7.
+Their detailed description can be found [here](https://github.com/AGolz/Libft_42Yerevan/blob/main/en.subject.pdf), page 7.
+
+Run `make` to compile the **libft** library .
+
+```
+$>./make
+libft.a:   object files are created
+libft.a:   libft.a created
+```
