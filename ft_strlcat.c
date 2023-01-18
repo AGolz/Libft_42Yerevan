@@ -6,7 +6,7 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:50:31 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/18 00:00:49 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 04:26:23 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 
 	i = 0;
 	res = 0;
+	if (!size)
+		return (0);
 	while (dst[i] && i < size)
 		i++;
 	while (src[res] && (i + res + 1) < size)

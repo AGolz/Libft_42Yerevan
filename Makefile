@@ -6,7 +6,7 @@
 #    By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/16 20:30:17 by emaksimo          #+#    #+#              #
-#    Updated: 2023/01/18 01:45:53 by emaksimo         ###   ########.fr        #
+#    Updated: 2023/01/18 05:02:19 by emaksimo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,9 @@ BLUE = \033[1;36m
 PINK = \033[1;35m
 RESET = \033[0m
 
+WHALE	=	"\n$(BLUE)       ::: \n     ___:____     |^\/^| \n   ,'        '.    \  / \n   |  O        \___/  | \n ~^~^~^~^~^~^~^~^~^~^~^~^~\n \n Compilation Successful!\n\n   by emaksimo for 42 \n	${NC}\n"
+NUKE	=	"\n$(PINK)    _.-^^---....,,--       \n _--                  --_  \n<                        >)\n|                         | \n \._                   _./  \n    '''--. . , ; .--'''       \n          | |   |             \n       .-=||  | |=-.   \n       '-=£€%&%€£=-'   \n          | ;  :|     \n _____.,-£%&€@%£&£~,._____\n ${NC}\n"
+
 .PHONY: all bonus clean fclean re
 
 all: $(NAME)
@@ -45,16 +48,21 @@ $(NAME): $(OBJECTS) $(HEADER)
 	@ranlib $(NAME)
 	@echo "\n$(NAME): $(BLUE) object files are created $(RESET)"
 	@echo "$(NAME): $(BLUE) $(NAME) created $(RESET)"
+	@echo $(WHALE)
 
 bonus: $(OBJECTS_B) $(HEADER)
 	ar rc $(NAME) $?
-	@echo "$(BLUE)...\n$(RESET)\c"
+	@echo "$(BLUE)\n  (ﾉ>ω<)ﾉ \n$(RESET)\c"
 	@ranlib $(NAME)
-	@echo "\n$(NAME): $(BLUE) bonus object files are created $(RESET)" 
+	@echo "\n $(BLUE)｡･:*:･ﾟ’★,｡･:*:･ﾟ’☆ bonus object files are created ｡･:*:･ﾟ’★,｡･:*:･ﾟ’☆ $(RESET)" 
+	@echo "\n $(BLUE)                   it's a special Street magic (─‿‿─) $(RESET)" 
+	
 
 
 clean:  
 	@rm -rf $(OBJECTS) $(OBJECTS_B)
+	@echo "$(PINK) ...3 2 1 $(RESET)"
+	@echo $(NUKE)
 	@echo "$(NAME): $(PINK) object files are deleted $(RESET)"
 
 fclean: clean

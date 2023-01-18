@@ -6,13 +6,13 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:49:44 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/17 21:09:47 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 04:08:58 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(char ch)
+int	ft_isalpha(int ch)
 {
 	if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
 		return (1);

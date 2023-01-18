@@ -6,55 +6,31 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:49:10 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/17 20:28:52 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 03:36:08 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_isspace(int c)
-{
-	if (c == '\t' || c == '\n' || c == '\v' \
-		|| c == '\f' || c == '\r' || c == ' ')
-		return (1);
-	else
-		return (0);
-}
-
-static int	ft_skipspace(const char *s)
-{
-	int	i;
-
-	i = 0;
-	while (ft_isspace(s[i] && s[i] != 0))
-		i++;
-	return (i);
-}
-
 int	ft_atoi(const char *str)
 {
-	long int	num;
-	int			negative;
-	int			i;
+	int		negative;
+	long	i;
 
-	num = 0;
-	i = ft_skipspace(str);
+	i = 0;
 	negative = 1;
-	while (str[i] == '-' && ft_isdigit(str[i + 1]))
-	{
+	while ((*str >= 9 && *str <= 13) || *str == ' ')
+		str++;
+	if (*str == '-')
 		negative = -1;
-		i++;
-	}
-	if (str[i] == '+' && ft_isdigit(str[i + 1]))
-		i++;
-	while (ft_isdigit(str[i]))
+	if (*str == '+' || *str == '-')
+		str++;
+	while (*str && *str >= '0' && *str <= '9')
 	{
-		num = num * 10 + str[i] - 48;
-		if (num != -2147483648 && num < 0 && negative == -1)
+		i = i * 10 + (*str - '0');
+		if (i > 2147483648 && negative == -1)
 			return (0);
-		else if (num != -2147483648 && num < 0)
-			return (-1);
-		i++;
+		str++;
 	}
-	return (num * negative);
+	return (negative * (int)i);
 }

@@ -6,7 +6,7 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 00:50:22 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/18 00:50:23 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 04:10:01 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (fd < 0 || !s)
+		return ;
 	write(fd, s, ft_strlen(s));
 }

@@ -6,7 +6,7 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:50:47 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/18 00:01:20 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 04:15:03 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 
 	if (!*little)
 		return ((char *)big);
+	if (!len)
+		return (0);
 	slen = 0;
 	while (big[slen] != '\0' && (size_t)slen < len)
 	{

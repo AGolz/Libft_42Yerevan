@@ -6,7 +6,7 @@
 /*   By: emaksimo <emaksimo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 21:10:58 by emaksimo          #+#    #+#             */
-/*   Updated: 2023/01/18 01:47:47 by emaksimo         ###   ########.fr       */
+/*   Updated: 2023/01/18 04:07:10 by emaksimo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 
 int		ft_atoi(const char *str);
 int		ft_isalnum(int ch);
-int		ft_isalpha(char ch);
+int		ft_isalpha(int ch);
 int		ft_isascii(int ch);
 int		ft_isdigit(int ch);
 int		ft_isprint(int ch);
