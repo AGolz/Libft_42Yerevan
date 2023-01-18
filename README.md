@@ -32,3 +32,31 @@ libft.a:   libft.a created
 ```
 
 The makefile also contains the rules `clean` - delete object files, `flean` - delete everything, including lift.a, and `re` - delete everything, including lift.a and compile again.
+
+## Bonus part:
+
+This is a set of functions for manipulating lists. To represent the list node, the following structure was used, declared in the libfdt.h file:
+
+```
+typedef struct	s_list
+{
+	void		*content;
+	struct s_list	*next;
+}			t_list;
+```
+
+The members of the t_list structure are:
+
+• content: data contained in the node.
+  void * allows you to store any data.
+
+• next: the address of the next node, or NULL if the next node is the last.
+
+Their detailed description can be found [here](https://github.com/AGolz/Libft_42Yerevan/blob/main/en.subject.pdf), page 11.
+
+Run `make bonus` to compile the **bonus functions** from libft.
+
+```
+$>make bonus
+bonus object files are created
+```
