@@ -1,8 +1,8 @@
 # Libft
 
-**Libft ([42cursus](https://www.42.fr)) 2022**
+**Libft ([42cursus](https://www.42.fr)) 2023**
 
-**Actual Status :** in progress 
+**Actual Status :** Finished
 
 **Result :** -
 
