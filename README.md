@@ -62,12 +62,16 @@ bonus object files are created
 ```
 
 ## Unit-test results:
-
 ![first part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.50.32%20AM.png)
 
 ![second part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.51.29%20AM.png)
 
 ![bonus part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.52.01%20AM.png)
+
+![first part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.35.19%20AM.png)
+
+![bonus part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.35.19%20AM.png)
+
 
 **[Project instructions](/en.subject.pdf)**
 
