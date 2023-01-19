@@ -62,11 +62,16 @@ bonus object files are created
 ```
 
 ## Unit-test results:
+
+[libft-unit-test](https://github.com/alelievr/libft-unit-test)
+
 ![first part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.50.32%20AM.png)
 
 ![second part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.51.29%20AM.png)
 
 ![bonus part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.52.01%20AM.png)
+
+[libftTester](https://github.com/Tripouille/libftTester)
 
 ![first part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.35.19%20AM.png)
 
@@ -77,4 +82,4 @@ bonus object files are created
 
 Need help: emaksimo@student.42yerevan.am
 
-Special thanks: [aleliver](https://github.com/alelievr) for the [libft-unit-test](https://github.com/alelievr/libft-unit-test) and [jtoty](https://github.com/jtoty) for the [Libftest](https://github.com/jtoty/Libftest) (:
+Special thanks: [tripouille](https://github.com/Tripouille) for the [libftTester](https://github.com/Tripouille/libftTester), [aleliver](https://github.com/alelievr) for the [libft-unit-test](https://github.com/alelievr/libft-unit-test) and [jtoty](https://github.com/jtoty) for the [Libftest](https://github.com/jtoty/Libftest) (:
