@@ -4,7 +4,7 @@
 
 **Actual Status :** Finished
 
-**Result :** -
+**Result :** 125%
 
 This project is about coding a C library. It contains many general-purpose functions that my next programs written for School 42 in C will rely on. This project is dedicated to understanding how standard functions work in С, their implementation and training in their use.
 
