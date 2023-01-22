@@ -75,7 +75,7 @@ bonus object files are created
 
 ![first part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.35.19%20AM.png)
 
-![bonus part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.35.19%20AM.png)
+![bonus part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.38.02%20AM.png)
 
 
 **[Project instructions](/en.subject.pdf)**
