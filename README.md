@@ -1,10 +1,11 @@
 # Libft
 
+
+<img src="https://user-images.githubusercontent.com/51645091/214311250-c31d930c-662a-4b2c-8f7c-33e0d96e4b11.png" align="left" width="130" hight="130">
+
 **Libft ([42cursus](https://www.42.fr)) 2023**
 
 **Actual Status :** Finished
-
-<img src="[https://user-images.githubusercontent.com/68464959/209187314-028e0527-0230-48fd-b365-affb612ceb0a.png](https://user-images.githubusercontent.com/68464959/209187314-028e0527-0230-48fd-b365-affb612ceb0a.png)" align="right" width="120">
 
 **Result :** 125%
 
@@ -16,7 +17,7 @@ This is a set of functions from libc. The functions have the
 same prototypes and the same behavior as the originals. They are fully consistent with how they are defined in their man. The only difference is their names. They
 start with the prefix ’ft_’. For example, strlen becomes ft_strlen.
 
-![functions libc](https://github.com/AGolz/Libft_42Yerevan/blob/b0ef7a56eee8dd51558501abfef693085bc80a5c/image/Screen%20Shot%202023-01-18%20at%205.48.46%20AM.png)
+<img width="747" alt="Screen Shot 2023-01-18 at 5 48 46 AM" src="https://user-images.githubusercontent.com/51645091/214314703-521e2123-408e-4359-a95d-5f5072f3f172.png">
 
 ## Part 2 - Additional Functions:
 
@@ -67,18 +68,11 @@ bonus object files are created
 
 [libft-unit-test](https://github.com/alelievr/libft-unit-test)
 
-![first part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.50.32%20AM.png)
+<img width="714" alt="Screen Shot 2023-01-18 at 6 50 32 AM" src="https://user-images.githubusercontent.com/51645091/214315091-133c3af4-7acf-4939-8452-7c928f2ff4d2.png">
 
-![second part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.51.29%20AM.png)
+<img width="675" alt="Screen Shot 2023-01-18 at 6 51 29 AM" src="https://user-images.githubusercontent.com/51645091/214315229-0e05a075-e212-4c16-994a-8e74c5fb4bfc.png">
 
-![bonus part](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-18%20at%206.52.01%20AM.png)
-
-[libftTester](https://github.com/Tripouille/libftTester)
-
-![first part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.35.19%20AM.png)
-
-![bonus part_tester](https://github.com/AGolz/Libft_42Yerevan/blob/main/image/Screen%20Shot%202023-01-20%20at%2012.38.02%20AM.png)
-
+<img width="695" alt="Screen Shot 2023-01-18 at 6 52 01 AM" src="https://user-images.githubusercontent.com/51645091/214315268-c288b876-1589-4d16-b33e-1c723b234dcb.png">
 
 **[Project instructions](/en.subject.pdf)**
 
