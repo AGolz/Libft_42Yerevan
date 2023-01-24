@@ -4,6 +4,8 @@
 
 **Actual Status :** Finished
 
+<img src="[https://user-images.githubusercontent.com/68464959/209187314-028e0527-0230-48fd-b365-affb612ceb0a.png](https://user-images.githubusercontent.com/68464959/209187314-028e0527-0230-48fd-b365-affb612ceb0a.png)" align="right" width="120">
+
 **Result :** 125%
 
 This project is about coding a C library. It contains many general-purpose functions that my next programs written for School 42 in C will rely on. This project is dedicated to understanding how standard functions work in С, their implementation and training in their use.
