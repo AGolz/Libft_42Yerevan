@@ -1,4 +1,4 @@
-# Libft
+# Libft :card_index_dividers:
 
 
 <img src="https://user-images.githubusercontent.com/51645091/214311250-c31d930c-662a-4b2c-8f7c-33e0d96e4b11.png" align="left" width="130" hight="130">
