@@ -55,7 +55,7 @@ bonus: $(OBJECTS_B) $(HEADER)
 	@echo "$(BLUE)\n  (ﾉ>ω<)ﾉ \n$(RESET)\c"
 	@ranlib $(NAME)
 	@echo "\n $(BLUE)｡･:*:･ﾟ’★,｡･:*:･ﾟ’☆ bonus object files are created ｡･:*:･ﾟ’★,｡･:*:･ﾟ’☆ $(RESET)" 
-	@echo "\n $(BLUE)                   it's a special Street magic (─‿‿─) $(RESET)" 
+	@echo "\n $(BLUE)                   it's a special Street Magic (─‿‿─) $(RESET)" 
 	
 
 
