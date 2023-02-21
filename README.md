@@ -5,7 +5,7 @@
 
 **Actual Status :** Finished
 
-**Result : 125%
+**Result :** 125%
 
 
 
