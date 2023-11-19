@@ -8,9 +8,6 @@
 **Result :** 125%
 
 
-
-<a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cldj7z84000110gl2ubikd2sh/project/2936146" alt="emaksimo's 42 Libft Score" /></a>
-
 This project is about coding a C library. It contains many general-purpose functions that my next programs written for School 42 in C will rely on. This project is dedicated to understanding how standard functions work in С, their implementation and training in their use.
 
 ## Part 1 - Libc functions:
@@ -78,6 +75,6 @@ bonus object files are created
 
 **[Project instructions](/en.subject.pdf)**
 
-Need help: emaksimo@student.42yerevan.am
+Need help: elmaksim@student.42yerevan.am
 
 Special thanks: [tripouille](https://github.com/Tripouille) for the [libftTester](https://github.com/Tripouille/libftTester), [aleliver](https://github.com/alelievr) for the [libft-unit-test](https://github.com/alelievr/libft-unit-test) and [jtoty](https://github.com/jtoty) for the [Libftest](https://github.com/jtoty/Libftest) (:
